@@ -123,7 +123,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDll, DWORD dwReason, LPVOID lpvRevered) {
 ![](img/detach.PNG)
 保存文件后打开,文件已经被成功篡改  
 ![](img/last.PNG)    
-注：附上dllmain.c,injectAllTheThings是直接用的github上的源代码，就不单独附上。
+注：附上dllmain.c,injectAllTheThings是直接用的github上的源代码，就不单独附上。   
 参考资料：  
 [IAT Hook](https://www.cnblogs.com/iBinary/p/10975839.html)  
 [HOOK钩子技术3 IATHook](http://www.voidcn.com/article/p-rowolljr-ye.html)  
