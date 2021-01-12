@@ -119,7 +119,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDll, DWORD dwReason, LPVOID lpvRevered) {
 * 使用之前课上讲过的injectAllTheThings.exe把生成的dll注入到notepad.exe进程  
 ![](img/inject.PNG)
 注入成功  
-![](img\attach.PNG)  
+![](img/attach.PNG)  
 ![](img/detach.PNG)
 保存文件后打开,文件已经被成功篡改  
 ![](img/last.PNG)    
@@ -127,7 +127,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDll, DWORD dwReason, LPVOID lpvRevered) {
 参考资料：  
 [IAT Hook](https://www.cnblogs.com/iBinary/p/10975839.html)  
 [HOOK钩子技术3 IATHook](http://www.voidcn.com/article/p-rowolljr-ye.html)  
-[windbg篡改notepad内容](https://blog.csdn.net/lixiangminghate/article/details/53086667)
+[windbg篡改notepad内容](https://blog.csdn.net/lixiangminghate/article/details/53086667)  
 [C/C++ 文件操作之CreateFile函数、ReadFile函数和WriteFile函数的用法](https://www.365jz.com/article/24618)
 
 
